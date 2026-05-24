@@ -50,7 +50,7 @@ The pipeline translates abstract statistical metrics into production-ready analy
 
 ## 📂 Source Directory Topology
 ANOVA/
-- ├── one_way_anova.py      # Independent single-factor matrix processing
-- ├── two_way_anova.py      # Interacting dual-factor variance evaluation
-- ├── repeated_measures.py  # Within-subject longitudinal tracking pipelines
-- └── scheffe_post_hoc.py   # Conservative pairwise significance calibration
+├── one_way_anova.py      # Independent single-factor matrix processing
+├── two_way_anova.py      # Interacting dual-factor variance evaluation
+├── repeated_measures.py  # Within-subject longitudinal tracking pipelines
+└── scheffe_post_hoc.py   # Conservative pairwise significance calibration
