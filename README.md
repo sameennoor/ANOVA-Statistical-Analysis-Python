@@ -43,14 +43,14 @@ The pipeline translates abstract statistical metrics into production-ready analy
 ---
 
 ## ⚙️ Core Technical Stack
-- ├── Engine Runtime     :  Python 3.x
-- ├── Data Wrangling     :  Pandas Core / NumPy Vectorization
-- ├── Compute Analytics  :  SciPy Stats / Statsmodels Linear Architecture
-- ├── Visual Framework   :  Matplotlib Pipelines / Seaborn Canvas
+| ├── Engine Runtime     :  Python 3.x
+|  ├── Data Wrangling     :  Pandas Core / NumPy Vectorization
+|  ├── Compute Analytics  :  SciPy Stats / Statsmodels Linear Architecture
+|  ├── Visual Framework   :  Matplotlib Pipelines / Seaborn Canvas
 
 ## 📂 Source Directory Topology
-ANOVA/
-├── one_way_anova.py      # Independent single-factor matrix processing
-├── two_way_anova.py      # Interacting dual-factor variance evaluation
-├── repeated_measures.py  # Within-subject longitudinal tracking pipelines
-└── scheffe_post_hoc.py   # Conservative pairwise significance calibration
+ANOVA/ 
+│   ├── one_way_anova.py                # Independent single-factor matrix processing
+│   ├── two_way_anova.py                # Interacting dual-factor variance evaluation
+│   ├── repeated_measures.py            # Within-subject longitudinal tracking pipelines 
+│   └── scheffe_post_hoc.py             # Conservative pairwise significance calibration
