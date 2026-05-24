@@ -39,10 +39,11 @@ The pipeline translates abstract statistical metrics into production-ready analy
 * **Distribution Density Matrices:** Continuous box-and-whisker plots isolating variance spread, median drift, and structural outliers.
 * **Longitudinal Trajectory Plots:** Sequential line topologies tracking intra-subject behavior adjustments across conditions.
 * **Automated Render Layers:** Native compilation utilizing object-oriented graphics pipelines via Matplotlib and Seaborn.
-
 ## 📂 Source Directory Topology
+
+```text
 ANOVA/
-│   ├── one_way_anova.py
-│   ├── two_way_anova.py
-│   ├── repeated_measures.py
-│   └── scheffe_post_hoc.py
+├── one_way_anova.py      # Independent single-factor matrix processing
+├── two_way_anova.py      # Interacting dual-factor variance evaluation
+├── repeated_measures.py  # Within-subject longitudinal tracking pipelines
+└── scheffe_post_hoc.py   # Conservative pairwise significance calibration
